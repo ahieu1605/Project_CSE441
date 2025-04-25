@@ -1,12 +1,13 @@
-import { StyleSheet, Text, View, Image } from "react-native";
-import React, { useEffect } from "react";
-import { colors } from "@/constants/theme";
-import { useRouter } from "expo-router";
+import {StyleSheet, Text, View, Image} from "react-native";
+import React, {useEffect} from "react";
+import {colors} from "@/constants/theme";
+import {useRouter} from "expo-router";
+
 const index = () => {
     const router = useRouter();
     useEffect(() => {
         setTimeout(() => {
-            router.push("/(auth)/welcome");
+            router.push('/welcome');
         }, 2000);
     }, []);
     return (

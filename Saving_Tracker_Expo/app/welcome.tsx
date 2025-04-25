@@ -1,9 +1,10 @@
-import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native'
+import {StyleSheet, Text, TouchableOpacity, View, Image} from 'react-native'
 import React from 'react'
 import ScreenWrapper from '@/components/ScreenWrapper'
 import Typo from '@/components/Typo'
-import { colors, spacingX, spacingY } from '@/constants/theme'
-import { verticalScale } from '@/utils/styling'
+import {colors, spacingX, spacingY} from '@/constants/theme'
+import {verticalScale} from '@/utils/styling'
+import Button from '@/components/Button';
 
 const welcome = () => {
     return (
@@ -31,9 +32,11 @@ const welcome = () => {
                         <Typo size={17} color={colors.textLight}>Lifestyle In The Future</Typo>
                     </View>
                     <View style={styles.buttonContainer}>
-                        {/* Button */}
+                        <Button>
+                            <Typo size={22} color={colors.neutral900} fontWeight={"600"}>Get Started</Typo>
+                        </Button>
                     </View>
-                        
+
                 </View>
             </View>
         </ScreenWrapper>
