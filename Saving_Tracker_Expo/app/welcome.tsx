@@ -15,7 +15,7 @@ const welcome = () => {
                     </TouchableOpacity>
 
                     <Image
-                        source={require("../../assets/images/welcome.png")}
+                        source={require("../assets/images/welcome.png")}
                         style={styles.welcomeImage}
                         resizeMode="contain"
                     />
