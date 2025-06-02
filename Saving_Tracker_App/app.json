@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Saving_Tracker_Expo",
-    "slug": "Saving_Tracker_Expo",
+    "name": "Saving_Tracker_App",
+    "slug": "Saving_Tracker_App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/adaptive-icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/images/icon.png",
+    "scheme": "savingtrackerapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,9 +13,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage":  "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
